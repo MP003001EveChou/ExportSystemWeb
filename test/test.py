@@ -8,4 +8,4 @@ with sync_playwright() as p:
     page.goto("http://www.google.com")
     print(page.title())
     browser.close()
-
+browser.close()
